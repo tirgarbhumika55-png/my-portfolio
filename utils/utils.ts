@@ -1,7 +1,5 @@
-const getImagePrefix = () => {
-  return process.env.NODE_ENV === "production"
-    ? "/Next.js-Tailwind-CSS-Portfolio-Template/": "";
+const getImagePrefix = () =& gt; {
+  return "";
 };
 
 export { getImagePrefix };
- 
