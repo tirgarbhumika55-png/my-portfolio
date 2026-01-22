@@ -75,7 +75,6 @@ export function ContactForm() {
                     variant="static"
                     label="First Name"
                     name="first-name"
-                    placeholder="eg. Lucas"
                     containerProps={{
                       className: "!min-w-full mb-3 md:mb-0",
                     }}
@@ -87,7 +86,6 @@ export function ContactForm() {
                     variant="static"
                     label="Last Name"
                     name="last-name"
-                    placeholder="eg. Jones"
                     containerProps={{
                       className: "!min-w-full",
                     }}
@@ -100,7 +98,6 @@ export function ContactForm() {
                   variant="static"
                   label="Email"
                   name="first-name"
-                  placeholder="eg. lucas@mail.com"
                   containerProps={{
                     className: "!min-w-full mb-8",
                   }}
