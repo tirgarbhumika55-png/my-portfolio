@@ -1,4 +1,4 @@
-const getImagePrefix = () =& gt; {
+const getImagePrefix = () => {
   return "";
 };
 
