@@ -46,7 +46,7 @@ function Hero() {
           height={1024}
           alt="team work"
           src={`${getImagePrefix()}image/formal.png`}
-          className="h-[36rem] w-full rounded-xl object-cover"
+          className="h-64 w-full rounded-xl object-cover lg:h-[36rem]"
         />
       </div>
     </header>
