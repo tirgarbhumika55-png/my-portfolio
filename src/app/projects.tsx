@@ -53,6 +53,22 @@ const PROJECTS = [
     architecture: "MVC Architecture with Django handling the backend, PostgreSQL for persistence, and responsive frontend for users and staff.",
     github: "https://github.com/tirgarbhumika55-png/LJ-Canteen"
   },
+  {
+    img: `${getImagePrefix()}image/project4.png`,
+    title: "AI-First CRM: HCP Interaction Module",
+    desc: "AI-First CRM system designed for Healthcare Professionals (HCPs) featuring a conversational AI Agent for logging and managing interactions.",
+    problem: "Healthcare representatives often face friction in logging interactions through traditional forms, leading to incomplete CRM data and lost insights.",
+    solution: "Developed a dual-interface CRM module with a manual form and a LangGraph-powered AI Agent, allowing MSLs to log meetings naturally via chat while maintaining data structure.",
+    techStack: ["React", "FastAPI", "LangGraph", "Groq", "Redux", "SQLite"],
+    features: [
+      "Dual Interface: Manual Form & AI Assistance",
+      "LangGraph-powered AI Agent for interaction logging",
+      "Automated HCP search and drug info retrieval",
+      "Real-time state management with Redux Toolkit"
+    ],
+    architecture: "React -> Redux -> FastAPI -> LangGraph -> Groq API -> SQLite.",
+    github: "https://github.com/tirgarbhumika55-png/AI-First-CRM-HCP"
+  },
 ];
 
 export function Projects() {
@@ -67,7 +83,7 @@ export function Projects() {
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-7/12"
         >
           Specializing in Computer Vision, Time-Series Analysis, and Natural Language Processing.
-          Here are three core projects that demonstrate my expertise in building scalable,
+          Here are core projects that demonstrate my expertise in building scalable,
           intelligent solutions for complex real-world challenges.
         </Typography>
       </div>
